@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = OUI::VERSION
   spec.authors       = ["Forrest Ye"]
   spec.email         = ["afu@forresty.com"]
-  spec.description   = %q{lookup OUI information /w Chinese translation using MAC address}
-  spec.summary       = %q{lookup OUI information /w Chinese translation using MAC address}
+  spec.description   = %q{look up OUI information /w Chinese translation using MAC address}
+  spec.summary       = %q{look up OUI information /w Chinese translation using MAC address}
   spec.homepage      = "https://github.com/modouwifi/oui-gem"
   spec.license       = "MIT"
 
