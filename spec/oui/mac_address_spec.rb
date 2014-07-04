@@ -35,13 +35,15 @@ module OUI
     end
 
     describe "instance methods" do
-      subject { MACAddress.new('001122334455') }
+      subject { MACAddress.parse('001122334455') }
 
       it { should respond_to :oui }
       it { should respond_to :organization }
 
       describe "oui" do
-
+        it "extracts oui from mac address" do
+          expect(subject.oui).to eq('00:11:22')
+        end
       end
     end
   end
