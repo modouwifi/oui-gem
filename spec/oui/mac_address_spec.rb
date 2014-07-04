@@ -5,6 +5,7 @@ module OUI
     subject { MACAddress }
 
     it { should respond_to :parse }
+    it { should respond_to :oui_regex }
 
     describe "parse" do
       subject { MACAddress }

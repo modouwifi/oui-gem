@@ -1,2 +1,9 @@
 #!/usr/bin/env ruby
 
+require "oui"
+
+File.open('data/oui.txt') do |file|
+  file.each_line do |line|
+    puts line if line =~ OUI::MACAddress.oui_regex
+  end
+end
