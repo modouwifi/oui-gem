@@ -1,5 +1,2 @@
 require "oui/version"
-
-module Oui
-  # Your code goes here...
-end
+require "oui/mac_address"
