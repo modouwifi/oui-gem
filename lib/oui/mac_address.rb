@@ -16,9 +16,11 @@ module OUI
       string =~ /#{@@part}[:-]?#{@@part}[:-]?#{@@part}[:-]?#{@@part}[:-]?#{@@part}[:-]?#{@@part}/
 
       @address = "#{$1}:#{$2}:#{$3}:#{$4}:#{$5}:#{$6}"
-      @oui = "#{$1}:#{$2}:#{$3}"
+      @oui = "#{$1}-#{$2}-#{$3}"
 
       raise 'illegal format' if @address == ':::::'
+
+      @organization = Database.look_up_organization_by_oui(@oui)
     end
   end
 end

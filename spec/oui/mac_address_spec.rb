@@ -43,7 +43,17 @@ module OUI
 
       describe "oui" do
         it "extracts oui from mac address" do
-          expect(subject.oui).to eq('00:11:22')
+          expect(subject.oui).to eq('00-11-22')
+        end
+
+        it "parses organization from database" do
+          real_mac_address = '14:10:9f:ea:49:3e'
+
+          Database.stub(:look_up_organization_by_oui).and_return(Organization.new { |o| o.name = 'Apple' })
+
+          organization = MACAddress.parse(real_mac_address).organization
+
+          expect(organization.name).to eq('Apple')
         end
       end
     end
