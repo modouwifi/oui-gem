@@ -1,6 +1,6 @@
-# Oui
+# OUI
 
-TODO: Write a gem description
+look up OUI information /w Chinese translation using MAC addresses
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+### From the command line
+
+    $ oui 14:10:9f:ea:22:33
 
 ## Contributing
 

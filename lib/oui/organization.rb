@@ -5,5 +5,9 @@ module OUI
     def initialize
       yield self if block_given?
     end
+
+    def self.parse(string)
+      raise 'not implemented yet'
+    end
   end
 end

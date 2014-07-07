@@ -16,6 +16,10 @@ module OUI
       "#{@@part}-#{@@part}-#{@@part}"
     end
 
+    def self.part
+      @@part
+    end
+
     def initialize(string)
       string =~ /(#{@@part})[:-]?(#{@@part})[:-]?(#{@@part})[:-]?(#{@@part})[:-]?(#{@@part})[:-]?(#{@@part})/
 
