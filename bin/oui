@@ -3,7 +3,18 @@
 require "oui"
 
 File.open('data/oui.txt') do |file|
+  companies = {}
+
   file.each_line do |line|
-    puts line if line =~ OUI::MACAddress.oui_regex
+    companies.default = 0
+
+    if line =~ OUI::MACAddress.oui_regex
+      line =~ /\(hex\)\s+(.+)/
+      companies[$1] += 1
+    end
+  end
+
+  companies.sort_by { |k,v| -v }[0..99].each do |company|
+    p company
   end
 end
