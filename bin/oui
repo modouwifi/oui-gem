@@ -27,4 +27,4 @@ end
 
 mac = ARGV.first
 
-p OUI::MACAddress.parse(mac)
+p OUI::MACAddress.parse(mac).organization

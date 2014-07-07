@@ -6,7 +6,8 @@ module OUI
       @@oui_to_organization_names = {}
 
       @@file.each_line do |line|
-        if line =~ /(#{MACAddress.oui_regex})\s+\(hex\)\s+(.+)/
+        regex = /(#{MACAddress.oui_regex_string})\s+\(hex\)\s+(.+)/
+        if line =~ regex
           @@oui_to_organization_names[$1] = $2
         end
       end
@@ -14,7 +15,7 @@ module OUI
 
     def look_up_organization_by_oui(oui)
       organization = Organization.new
-      organization.name = @@oui_to_organization_names[oui]
+      organization.name = @@oui_to_organization_names[oui.upcase]
       organization
     end
 
