@@ -49,7 +49,7 @@ module OUI
         it "parses organization from database" do
           real_mac_address = '14:10:9f:ea:49:3e'
 
-          Database.stub(:look_up_organization_by_oui).and_return(Organization.new { |o| o.name = 'Apple' })
+          expect(Database).to receive(:look_up_organization_by_oui).and_return(Organization.new { |o| o.name = 'Apple' })
 
           organization = MACAddress.parse(real_mac_address).organization
 
