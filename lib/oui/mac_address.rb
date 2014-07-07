@@ -19,8 +19,14 @@ module OUI
       @oui = "#{$1}-#{$2}-#{$3}"
 
       raise 'illegal format' if @address == ':::::'
+    end
 
-      @organization = Database.look_up_organization_by_oui(@oui)
+    def organization
+      unless @organization
+        @organization = Database.look_up_organization_by_oui(@oui)
+      end
+
+      @organization
     end
   end
 end
