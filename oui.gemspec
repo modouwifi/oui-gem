@@ -23,4 +23,8 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "rspec"
   spec.add_development_dependency "pry"
+
+  spec.add_development_dependency "sinatra"
+  spec.add_development_dependency "sinatra-contrib"
+  spec.add_development_dependency "shotgun"
 end

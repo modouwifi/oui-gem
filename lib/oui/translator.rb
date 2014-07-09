@@ -12,6 +12,7 @@ module OUI
 
     def self.translate(english)
       @@instance ||= new
+
       @@instance.translate(english)
     end
   end
