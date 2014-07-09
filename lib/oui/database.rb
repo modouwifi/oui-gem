@@ -16,6 +16,7 @@ module OUI
     def look_up_organization_by_oui(oui)
       organization = Organization.new
       organization.name = @@oui_to_organization_names[oui.upcase]
+      organization.chinese_name = Translator.translate(organization.name)
       organization
     end
 
