@@ -46,7 +46,7 @@ Shenzhen Huawei Communication Technologies Co., Ltd: 华为
 2Wire: 2Wire
 SAGEMCOM: SAGEMCOM
 Sony Corporation: 索尼
-Hon Hai Precision Ind. Co., Ltd.: Hon Hai Precision Ind. Co., Ltd.
+Hon Hai Precision Ind. Co., Ltd.: 富士康
 Dell Inc.: 戴尔
 RIM: RIM
 NETGEAR INC.,: 网件
@@ -71,7 +71,7 @@ Sony Ericsson Mobile Communications: 索尼爱立信
 XEROX CORPORATION: 施乐
 Buffalo Inc.: Buffalo
 Fujitsu Limited: Fujitsu
-Intel Corporation: 因特尔
+Intel Corporation: 英特尔
 ZyXEL Communications Corporation: ZyXEL Communications Corporation
 Tattile SRL: Tattile SRL
 PEGATRON CORPORATION: PEGATRON CORPORATION
@@ -86,7 +86,7 @@ ARRIS International: ARRIS International
 COMPAL INFORMATION (KUNSHAN) CO., LTD.: COMPAL INFORMATION (KUNSHAN) CO., LTD.
 Research In Motion: RIM
 Thomson Telecom Belgium: Thomson Telecom Belgium
-DIGITAL EQUIPMENT CORPORATION: DIGITAL EQUIPMENT CORPORATION
+DIGITAL EQUIPMENT CORPORATION: DEC
 Toshiba: Toshiba
 ProCurve Networking by HP: ProCurve Networking by HP
 Sony Computer Entertainment Inc.: 索尼
@@ -109,12 +109,12 @@ NEC AccessTechnica, Ltd.: NEC AccessTechnica, Ltd.
 Hitron Technologies. Inc: Hitron Technologies. Inc
 Samsung Electronics CO., LTD: 三星
 AcSiP Technology Corp.: AcSiP Technology Corp.
-Alcatel-Lucent Shanghai Bell Co., Ltd: Alcatel-Lucent Shanghai Bell Co., Ltd
+Alcatel-Lucent Shanghai Bell Co., Ltd: 阿尔卡特朗讯
 ALPS Co,. Ltd.: ALPS Co,. Ltd.
 Emulex Corporation: Emulex Corporation
 AzureWave Technologies, Inc.: AzureWave Technologies, Inc.
-Shenzhen Gongjin Electronics Co.,Ltd: Shenzhen Gongjin Electronics Co.,Ltd
-Hon Hai Precision Ind.Co.Ltd: Hon Hai Precision Ind.Co.Ltd
+Shenzhen Gongjin Electronics Co.,Ltd: 共进
+Hon Hai Precision Ind.Co.Ltd: 富士康
 Quanta Computer Inc.: Quanta Computer Inc.
 Azurewave Technologies, Inc.: Azurewave Technologies, Inc.
 Telco Systems, Inc.: Telco Systems, Inc.
@@ -135,7 +135,7 @@ EMC Corporation: EMC
 Alpha Networks Inc.: Alpha Networks Inc.
 Wistron Corporation: Wistron Corporation
 Verilink Corporation: Verilink Corporation
-INTEL CORPORATION: 因特尔
+INTEL CORPORATION: 英特尔
 2Wire, Inc: 2Wire, Inc
 ASUSTEK COMPUTER INC.: ASUSTEK COMPUTER INC.
 Harmonic, Inc: Harmonic, Inc
@@ -188,7 +188,7 @@ Shanghai Feixun Communication Co.,Ltd.: Shanghai Feixun Communication Co.,Ltd.
 3Com Corporation: 3Com
 Dell Computer Corp.: 戴尔
 GN Netcom A/S: GN Netcom A/S
-Alcatel-Lucent-IPD: Alcatel-Lucent-IPD
+Alcatel-Lucent-IPD: 阿尔卡特朗讯
 Wistron InfoComm(Kunshan)Co.,Ltd.: Wistron InfoComm(Kunshan)Co.,Ltd.
 Texas Instruments Inc: 德州仪器
 Check Point Software Technologies: Check Point Software Technologies
@@ -227,7 +227,7 @@ Pantech Co., Ltd.: Pantech Co., Ltd.
 TECOM Co., Ltd.: TECOM Co., Ltd.
 Qisda Corporation: Qisda Corporation
 Alcatel Lucent IPD: 阿尔卡特朗讯
-Hon Hai Precision Ind.Co.,Ltd.: Hon Hai Precision Ind.Co.,Ltd.
+Hon Hai Precision Ind.Co.,Ltd.: 富士康
 KYOCERA Corporation: 京瓷
 Cisco-Linksys: Cisco-Linksys
 FUJITSU LIMITED: FUJITSU LIMITED
@@ -251,7 +251,7 @@ DrayTek Corp.: DrayTek Corp.
 BROTHER INDUSTRIES, LTD.: BROTHER INDUSTRIES, LTD.
 SanDisk Corporation: SanDisk
 Inventec Corporation: Inventec Corporation
-Hon Hai Precision Ind.Co., Ltd.: Hon Hai Precision Ind.Co., Ltd.
+Hon Hai Precision Ind.Co., Ltd.: 富士康
 MCS Logic Inc.: MCS Logic Inc.
 CIS TECHNOLOGY INC.: CIS TECHNOLOGY INC.
 Handreamnet: Handreamnet
@@ -259,9 +259,9 @@ Scientific-Atlanta, Inc: Scientific-Atlanta, Inc
 FUJIAN STAR-NET COMMUNICATION CO.,LTD: FUJIAN STAR-NET COMMUNICATION CO.,LTD
 Skyworth Digital technology(shenzhen)co.ltd.: Skyworth Digital technology(shenzhen)co.ltd.
 Sanmina-SCI: Sanmina-SCI
-Konka Group Co., Ltd.: Konka Group Co., Ltd.
+Konka Group Co., Ltd.: 康佳
 Google Inc.: Google
-ShenZhen Gongjin Electronics Co.,Ltd: ShenZhen Gongjin Electronics Co.,Ltd
+ShenZhen Gongjin Electronics Co.,Ltd: 共进
 UNIONMAN TECHNOLOGY CO.,LTD: UNIONMAN TECHNOLOGY CO.,LTD
 ION Networks, Inc.: ION Networks, Inc.
 MEMOTEC, INC.: MEMOTEC, INC.
@@ -270,7 +270,7 @@ Alcatel North America ESD: Alcatel North America ESD
 ADTRAN INC.: ADTRAN INC.
 Panasonic Mobile Communications Co., Ltd.: 松下
 GemTek Technology Co., Ltd.: GemTek Technology Co., Ltd.
-Hon Hai Precision Ind. Co., Ltd: Hon Hai Precision Ind. Co., Ltd
+Hon Hai Precision Ind. Co., Ltd: 富士康
 Aerohive Networks, Inc.: Aerohive Networks, Inc.
 AboCom Systems, Inc.: AboCom Systems, Inc.
 Gigaset Communications GmbH: Gigaset Communications GmbH
@@ -329,7 +329,7 @@ EAGLE TECHNOLOGY, INC.: EAGLE TECHNOLOGY, INC.
 MICROTEK INTERNATIONAL, INC.: MICROTEK INTERNATIONAL, INC.
 Panasonic Communications Co., Ltd.: 松下
 GE Energy: 通用电器
-LG INFORMATION & COMM.: LG INFORMATION & COMM.
+LG INFORMATION & COMM.: LG
 DOT HILL SYSTEMS CORPORATION: DOT HILL SYSTEMS CORPORATION
 CLEVO CO.: CLEVO CO.
 I-O DATA DEVICE, INC.: I-O DATA DEVICE, INC.
@@ -366,7 +366,7 @@ HME Clear-Com LTD.: HME Clear-Com LTD.
 QUANTA COMPUTER INC.: QUANTA COMPUTER INC.
 Sonos, Inc.: Sonos
 NEC CASIO Mobile Communications: NEC CASIO
-Mitsubishi Electric Corporation: Mitsubishi Electric Corporation
+Mitsubishi Electric Corporation: 三菱
 Symantec Corporation: 赛门铁克
 Murata Manufacturing Co.,Ltd.: 村田制作所
 JABIL CIRCUIT (SHANGHAI) LTD.: JABIL CIRCUIT (SHANGHAI) LTD.
@@ -376,7 +376,7 @@ Alibaba Cloud Computing Ltd.: 阿里云
 Sitecom Europe BV: Sitecom Europe BV
 ABB STOTZ-KONTAKT GmbH: ABB STOTZ-KONTAKT GmbH
 Bose Corporation: Bose
-SHENZHEN CHUANGWEI-RGB ELECTRONICS CO.,LT: SHENZHEN CHUANGWEI-RGB ELECTRONICS CO.,LT
+SHENZHEN CHUANGWEI-RGB ELECTRONICS CO.,LT: 创维
 D-LINK INTERNATIONAL PTE LIMITED: D-LINK
 Fujian Star-net Communication Co., Ltd: Fujian Star-net Communication Co., Ltd
 Texas Instruments, Inc: 德州仪器
@@ -397,8 +397,7 @@ RuggedCom Inc.: RuggedCom Inc.
 ATEK Products, LLC: ATEK Products, LLC
 FiberHome Telecommunication Technologies CO.,LTD: FiberHome Telecommunication Technologies
   CO.,LTD
-Toshiba Samsung Storage Technolgoy Korea Corporation: Toshiba Samsung Storage Technolgoy
-  Korea Corporation
+Toshiba Samsung Storage Technolgoy Korea Corporation: 东芝三星
 COMTREND: COMTREND
 Johnson Controls-ASG: Johnson Controls-ASG
 ALPS ELECTRIC CO.,LTD.: ALPS ELECTRIC CO.,LTD.
@@ -430,7 +429,7 @@ Zebra Technologies Corp.: Zebra Technologies Corp.
 Pluribus Networks, Inc.: Pluribus Networks, Inc.
 Telecom Design: Telecom Design
 juniper networks: juniper networks
-The Boeing Company: The Boeing Company
+The Boeing Company: 波音
 ShenZhen Rapoo Technology Co., Ltd.: ShenZhen Rapoo Technology Co., Ltd.
 Source Photonics, Inc.: Source Photonics, Inc.
 Sonicwall: Sonicwall
@@ -438,10 +437,9 @@ Micro-Star INT'L CO., LTD: Micro-Star INT'L CO., LTD
 Digeo, Inc.: Digeo, Inc.
 Delta Electronics, Inc.: Delta Electronics, Inc.
 Tripp Lite: Tripp Lite
-IBM Corporation: IBM Corporation
+IBM Corporation: IBM
 Intrinsyc Software International Inc.: Intrinsyc Software International Inc.
-Siemens AB, Infrastructure & Cities, Building Technologies Division, IC BT SSP SP BA PR: Siemens
-  AB, Infrastructure & Cities, Building Technologies Division, IC BT SSP SP BA PR
+Siemens AB, Infrastructure & Cities, Building Technologies Division, IC BT SSP SP BA PR: 西门子
 L-3 Linkabit: L-3 Linkabit
 Soronti, Inc.: Soronti, Inc.
 Pace plc.: Pace plc.
@@ -449,16 +447,16 @@ Snell: Snell
 Calxeda, Inc.: Calxeda, Inc.
 Accton Technology Corp.: Accton Technology Corp.
 CABLETRON SYSTEMS, INC.: CABLETRON SYSTEMS, INC.
-Ericsson, EAB/RWI/K: Ericsson, EAB/RWI/K
-LG Innotek: LG Innotek
-3 Com Corporation: 3 Com Corporation
-The Linksys Group, Inc.: The Linksys Group, Inc.
+Ericsson, EAB/RWI/K: 爱立信
+LG Innotek: LG
+3 Com Corporation: 3Com
+The Linksys Group, Inc.: Linksys
 Polaroid Corporation: Polaroid Corporation
 Pixord Corporation: Pixord Corporation
 Atmel Corporation: Atmel Corporation
 Shanghai DareGlobal Technologies Co., Ltd: Shanghai DareGlobal Technologies Co., Ltd
 Aerohive Networks Inc: Aerohive Networks Inc
-Avaya, Inc.: Avaya, Inc.
+Avaya, Inc.: Avaya
 LEXMARK INTERNATIONAL, INC.: LEXMARK INTERNATIONAL, INC.
 NCTech Ltd: NCTech Ltd
 FN-LINK TECHNOLOGY LIMITED: FN-LINK TECHNOLOGY LIMITED
@@ -477,7 +475,7 @@ Roku, Inc: Roku, Inc
 Zioncom Electronics (Shenzhen) Ltd.: Zioncom Electronics (Shenzhen) Ltd.
 Ambit Microsystems Corporation: Ambit Microsystems Corporation
 GLOBAL VILLAGE COMMUNICATION: GLOBAL VILLAGE COMMUNICATION
-Ericsson Group: Ericsson Group
+Ericsson Group: 爱立信
 Primax Electronics Ltd.: Primax Electronics Ltd.
 Gionee Communication Equipment Co,Ltd.ShenZhen: Gionee Communication Equipment Co,Ltd.ShenZhen
 Cisco Systems, Inc.: 思科
@@ -501,7 +499,7 @@ IFM Electronic gmbh: IFM Electronic gmbh
 Amino Communications, Ltd.: Amino Communications, Ltd.
 Woonsang Telecom, Inc.: Woonsang Telecom, Inc.
 Bodmann Industries Elektronik GmbH: Bodmann Industries Elektronik GmbH
-Hitachi Denshi, Ltd.: Hitachi Denshi, Ltd.
+Hitachi Denshi, Ltd.: 日立
 Telital R&D Denmark A/S: Telital R&D Denmark A/S
 VisionGlobal Network Corp.: VisionGlobal Network Corp.
 Unify Networks, Inc.: Unify Networks, Inc.
@@ -527,7 +525,7 @@ Network Elements, Inc.: Network Elements, Inc.
 Data General Communication Ltd.: Data General Communication Ltd.
 SIMTEL S.R.L.: SIMTEL S.R.L.
 Aculab PLC: Aculab PLC
-CANON FINETECH INC.: CANON FINETECH INC.
+CANON FINETECH INC.: 佳能
 DSP Application, Ltd.: DSP Application, Ltd.
 Chromisys, Inc.: Chromisys, Inc.
 ClickTV: ClickTV
@@ -613,7 +611,7 @@ Tommy Technologies Corp.: Tommy Technologies Corp.
 SMART Technologies, Inc.: SMART Technologies, Inc.
 SETA Corp.: SETA Corp.
 Cash Systemes Industrie: Cash Systemes Industrie
-Samsung Electro-Mechanics Co., Ltd.: Samsung Electro-Mechanics Co., Ltd.
+Samsung Electro-Mechanics Co., Ltd.: 三星
 Control Applications, Ltd.: Control Applications, Ltd.
 IOI Technology Corporation: IOI Technology Corporation
 Amplify Net, Inc.: Amplify Net, Inc.
@@ -779,7 +777,7 @@ Xpeed, Inc.: Xpeed, Inc.
 Reco Research Co., Ltd.: Reco Research Co., Ltd.
 IDIS Co., Ltd.: IDIS Co., Ltd.
 Cornet Technology, Inc.: Cornet Technology, Inc.
-SANYO Consumer Electronics Co., Ltd.: SANYO Consumer Electronics Co., Ltd.
+SANYO Consumer Electronics Co., Ltd.: 三洋
 Arima Computer Corp.: Arima Computer Corp.
 Iwasaki Information Systems Co., Ltd.: Iwasaki Information Systems Co., Ltd.
 ACT'L: ACT'L
@@ -883,7 +881,7 @@ Atoga Systems, Inc.: Atoga Systems, Inc.
 Weinschel Corporation: Weinschel Corporation
 Digital Video Communications, Inc.: Digital Video Communications, Inc.
 Advanced Digital Broadcast, Ltd.: Advanced Digital Broadcast, Ltd.
-Hyundai Teletek Co., Ltd.: Hyundai Teletek Co., Ltd.
+Hyundai Teletek Co., Ltd.: 现代
 ISDN Communications, Ltd.: ISDN Communications, Ltd.
 Connect One: Connect One
 California Amplifier: California Amplifier
@@ -1002,7 +1000,7 @@ Sage Systems: Sage Systems
 Kanno Works, Ltd.: Kanno Works, Ltd.
 Teltronics, Inc.: Teltronics, Inc.
 manroland AG: manroland AG
-Asus Network Technologies, Inc.: Asus Network Technologies, Inc.
+Asus Network Technologies, Inc.: 华硕
 Spinnaker Networks, Inc.: Spinnaker Networks, Inc.
 Inkra Networks, Inc.: Inkra Networks, Inc.
 WaveSmith Networks, Inc.: WaveSmith Networks, Inc.
@@ -1018,4 +1016,4 @@ Bridgeworks Ltd.: Bridgeworks Ltd.
 ipDialog, Inc.: ipDialog, Inc.
 Corega of America: Corega of America
 Shikoku Instrumentation Co., Ltd.: Shikoku Instrumentation Co., Ltd.
-Sony Computer Entertainment, Inc.: Sony Computer Entertainment, Inc.
+Sony Computer Entertainment, Inc.: 索尼
