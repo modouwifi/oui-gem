@@ -16,12 +16,16 @@ module OUI
       "#{@@part}-#{@@part}-#{@@part}"
     end
 
+    def self.mac_regex_string
+      "(#{@@part})[:-]?(#{@@part})[:-]?(#{@@part})[:-]?(#{@@part})[:-]?(#{@@part})[:-]?(#{@@part})"
+    end
+
     def self.part
       @@part
     end
 
     def initialize(string)
-      string =~ /(#{@@part})[:-]?(#{@@part})[:-]?(#{@@part})[:-]?(#{@@part})[:-]?(#{@@part})[:-]?(#{@@part})/
+      string =~ /#{self.class.mac_regex_string}/
 
       @address = "#{$1}:#{$2}:#{$3}:#{$4}:#{$5}:#{$6}"
       @oui = "#{$1}-#{$2}-#{$3}"
