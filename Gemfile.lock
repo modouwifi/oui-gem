@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    oui (0.0.1)
+    oui (0.0.2)
       sinatra
       sinatra-contrib
 
