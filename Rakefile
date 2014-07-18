@@ -10,7 +10,7 @@ require 'rake'
 
 def download_logs
   `mkdir -p tmp`
-  `heroku logs > tmp/logs.txt`
+  `heroku logs -n 10000 > tmp/logs.txt`
 end
 
 def show_report
