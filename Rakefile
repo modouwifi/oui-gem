@@ -29,10 +29,15 @@ def show_report
 
   mac_addresses.uniq!
 
-  mac_addresses.each do |mac|
-    org = OUI::MACAddress.parse(mac).organization
-    if org.chinese_name.nil? || org.chinese_name.length > 7
-      p org if org.name
+  File.open("records.txt", "a") do |file|
+    mac_addresses.each do |mac|
+      org = OUI::MACAddress.parse(mac).organization
+      if org.chinese_name.nil? || org.chinese_name.length > 7
+        if org.name
+          p org
+          file.puts org.inspect
+        end
+      end
     end
   end
 end
