@@ -30,7 +30,10 @@ def show_report
   mac_addresses.uniq!
 
   mac_addresses.each do |mac|
-    p OUI::MACAddress.parse(mac).organization
+    org = OUI::MACAddress.parse(mac).organization
+    if org.chinese_name.nil? || org.chinese_name.length > 7
+      p org if org.name
+    end
   end
 end
 
