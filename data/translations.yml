@@ -23,7 +23,7 @@ zte corporation: 中兴
 ASUSTek COMPUTER INC.: 华硕
 Juniper Networks: Juniper Networks
 Cisco SPVTG: 思科
-Avaya, Inc: Avaya, Inc
+Avaya, Inc: Avaya
 TP-LINK TECHNOLOGIES CO.,LTD.: TP-LINK
 Nortel: Nortel
 LG Electronics: LG
@@ -37,7 +37,7 @@ D-Link International: D-Link
 HTC Corporation: HTC
 ADB Broadband Italia: ADB Broadband Italia
 D-Link Corporation: D-Link
-Cisco-Linksys, LLC: Cisco-Linksys
+Cisco-Linksys, LLC: Linksys
 UNGERMANN-BASS INC.: UNGERMANN-BASS INC.
 Actiontec Electronics, Inc: Actiontec Electronics, Inc
 Sony Mobile Communications AB: 索尼
@@ -82,7 +82,7 @@ Universal Global Scientific Industrial Co., Ltd.: Universal Global Scientific In
 Alcatel Lucent: 阿尔卡特朗讯
 SAGEMCOM SAS: SAGEMCOM SAS
 TCT Mobile Limited: TCT
-ARRIS International: ARRIS International
+ARRIS International: ARRIS
 COMPAL INFORMATION (KUNSHAN) CO., LTD.: 仁宝资讯
 Research In Motion: RIM
 Thomson Telecom Belgium: Thomson Telecom Belgium
@@ -105,7 +105,7 @@ Samsung Electro Mechanics co., LTD.: 三星
 Murata Manufactuaring Co.,Ltd.: 村田制作所
 Juniper networks: Juniper networks
 Samsung Electronics Co., LTD: 三星
-NEC AccessTechnica, Ltd.: NEC AccessTechnica, Ltd.
+NEC AccessTechnica, Ltd.: NEC
 Hitron Technologies. Inc: Hitron Technologies. Inc
 Samsung Electronics CO., LTD: 三星
 AcSiP Technology Corp.: AcSiP Technology Corp.
@@ -119,7 +119,7 @@ Quanta Computer Inc.: 广达电脑
 Azurewave Technologies, Inc.: 海华科技
 Telco Systems, Inc.: Telco Systems, Inc.
 Alps Electric Co., Ltd: Alps Electric Co., Ltd
-Wistron Neweb Corp.: Wistron Neweb Corp.
+Wistron Neweb Corp.: 纬创资通
 Samsung Electro Mechanics co.,LTD.: 三星
 Belkin International Inc.: 贝尔金
 LG Electronics Inc: LG
@@ -133,11 +133,11 @@ Ericsson: Ericsson
 HPN Supply Chain: HPN Supply Chain
 EMC Corporation: EMC
 Alpha Networks Inc.: 明泰科技
-Wistron Corporation: Wistron Corporation
+Wistron Corporation: 纬创资通
 Verilink Corporation: Verilink Corporation
 INTEL CORPORATION: 英特尔
 2Wire, Inc: 2Wire, Inc
-ASUSTEK COMPUTER INC.: ASUSTEK COMPUTER INC.
+ASUSTEK COMPUTER INC.: 华硕
 Harmonic, Inc: Harmonic, Inc
 TP-LINK Technologies Co.,Ltd.: TP-LINK
 Microsoft: 微软
@@ -173,7 +173,7 @@ Teracom Limited: Teracom Limited
 AzureWave Technologies, Inc: 海华科技
 IEEE 1904.1 Working Group: IEEE 1904.1 Working Group
 ASRock Incorporation: ASRock Incorporation
-LUCENT TECHNOLOGIES: LUCENT TECHNOLOGIES
+LUCENT TECHNOLOGIES: 朗讯
 SAMSUNG ELECTRO-MECHANICS CO., LTD.: 三星
 GN Netcom as: GN Netcom as
 Sichuan Changhong Electric Ltd.: 长虹
@@ -181,15 +181,15 @@ SONY Computer Entertainment inc,: 索尼
 Cisco Systems: 思科
 Chicony Electronics Co., Ltd.: 群光电子
 PLANEX COMMUNICATIONS INC.: PLANEX COMMUNICATIONS INC.
-Cisco-Linksys LLC: Cisco-Linksys LLC
+Cisco-Linksys LLC: Linksys
 RACAL-DATACOM: RACAL-DATACOM
 EFM Networks: EFM Networks
-Shanghai Feixun Communication Co.,Ltd.: Shanghai Feixun Communication Co.,Ltd.
+Shanghai Feixun Communication Co.,Ltd.: 斐迅
 3Com Corporation: 3Com
 Dell Computer Corp.: 戴尔
 GN Netcom A/S: GN Netcom A/S
 Alcatel-Lucent-IPD: 阿尔卡特朗讯
-Wistron InfoComm(Kunshan)Co.,Ltd.: Wistron InfoComm(Kunshan)Co.,Ltd.
+Wistron InfoComm(Kunshan)Co.,Ltd.: 纬新资通
 Texas Instruments Inc: 德州仪器
 Check Point Software Technologies: Check Point Software Technologies
 Shenzhen Zowee Technology Co., Ltd: 卓翼
@@ -201,7 +201,7 @@ ASKEY COMPUTER CORP.: ASKEY COMPUTER CORP.
 Alcatel-Lucent, Enterprise Business Group: 阿尔卡特朗讯
 Enterasys: Enterasys
 Scientific Atlanta: Scientific Atlanta
-Panasonic AVC Networks Company: Panasonic AVC Networks Company
+Panasonic AVC Networks Company: 松下
 BBK Electronics Corp., Ltd.,: 步步高
 SHARP CORPORATION: 夏普
 SMC Networks Inc: SMC Networks Inc
@@ -223,14 +223,14 @@ ADVA Optical Networking Ltd.: ADVA Optical Networking Ltd.
 Palo Alto Networks: Palo Alto Networks
 Edimax Technology Co. Ltd.: Edimax Technology Co. Ltd.
 3COM EUROPE LTD: 3COM
-Pantech Co., Ltd.: Pantech Co., Ltd.
+Pantech Co., Ltd.: 泛泰
 TECOM Co., Ltd.: TECOM Co., Ltd.
 Qisda Corporation: Qisda Corporation
 Alcatel Lucent IPD: 阿尔卡特朗讯
 Hon Hai Precision Ind.Co.,Ltd.: 富士康
 KYOCERA Corporation: 京瓷
-Cisco-Linksys: Cisco-Linksys
-FUJITSU LIMITED: FUJITSU LIMITED
+Cisco-Linksys: Linksys
+FUJITSU LIMITED: 富士通
 ZyXEL Communications Corp: ZyXEL Communications Corp
 Panasonic Corporation AVC Networks Company: 松下
 Routerboard.com: Routerboard.com
@@ -266,7 +266,7 @@ UNIONMAN TECHNOLOGY CO.,LTD: UNIONMAN TECHNOLOGY CO.,LTD
 ION Networks, Inc.: ION Networks, Inc.
 MEMOTEC, INC.: MEMOTEC, INC.
 LARSCOM INCORPORATED: LARSCOM INCORPORATED
-Alcatel North America ESD: Alcatel North America ESD
+Alcatel North America ESD: 阿尔卡特
 ADTRAN INC.: ADTRAN INC.
 Panasonic Mobile Communications Co., Ltd.: 松下
 GemTek Technology Co., Ltd.: GemTek Technology Co., Ltd.
