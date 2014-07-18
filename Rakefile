@@ -8,11 +8,13 @@ require 'rake'
 #
 # task :default => :spec
 
-task :report do
-  require "oui"
-
+def download_logs
   `mkdir -p tmp`
   `heroku logs > tmp/logs.txt`
+end
+
+def show_report
+  require "oui"
 
   logs = File.read('tmp/logs.txt')
 
@@ -30,4 +32,13 @@ task :report do
   mac_addresses.each do |mac|
     p OUI::MACAddress.parse(mac).organization
   end
+end
+
+task :report_local do
+  show_report
+end
+
+task :report do
+  download_logs
+  show_report
 end
