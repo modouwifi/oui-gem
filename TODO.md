@@ -1,0 +1,1 @@
+- support locally administered addresses (e.g. 0A:72:2C:1E:8B:0A)
