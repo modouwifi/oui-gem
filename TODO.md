@@ -1,1 +1,2 @@
 - support locally administered addresses (e.g. 0A:72:2C:1E:8B:0A)
+- support Individual Address Block (addresses start with 40-D8-55)
