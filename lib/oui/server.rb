@@ -27,7 +27,8 @@ module OUI
       renderer.result
     end
 
-    post '/feed' do
+    get '/feed' do
+      "thanks"
     end
   end
 end
