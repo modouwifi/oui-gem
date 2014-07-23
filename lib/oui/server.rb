@@ -1,6 +1,7 @@
+# coding: utf-8
+
 require "sinatra"
 require "sinatra/json"
-require "erb"
 
 module OUI
   class Server < Sinatra::Base
@@ -21,14 +22,11 @@ module OUI
     end
 
     get '/' do
-      template = File.read(File.expand_path("../../../template.html.erb", __FILE__))
-      renderer = ERB.new(template)
-
-      renderer.result
+      erb :form, :locals => { title: "提交 MAC 地址和厂商及产品的对应关系" }
     end
 
     get '/feed' do
-      erb :thanks, :locals => @params
+      erb :thanks, :locals => { title: "非常感谢" }.merge(@params)
     end
   end
 end
