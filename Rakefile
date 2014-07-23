@@ -42,6 +42,16 @@ def show_report
   end
 end
 
+def show_feeds
+  logs = File.read('tmp/logs.txt')
+
+  logs.each_line do |line|
+    if line =~ /path="\/feed/
+      puts line
+    end
+  end
+end
+
 task :report_local do
   show_report
 end
@@ -49,4 +59,12 @@ end
 task :report do
   download_logs
   show_report
+end
+
+task :feeds do
+  show_feeds
+end
+
+task :download_logs do
+  download_logs
 end
