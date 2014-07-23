@@ -2,6 +2,8 @@
 
 look up OUI information /w Chinese translation using MAC addresses
 
+[![Build Status](https://travis-ci.org/modouwifi/oui-gem.svg?branch=master)](https://travis-ci.org/modouwifi/oui-gem)
+
 ## Installation
 
 Add this line to your application's Gemfile:
