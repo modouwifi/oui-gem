@@ -1,5 +1,6 @@
 require "sinatra"
 require "sinatra/json"
+require "erb"
 
 module OUI
   class Server < Sinatra::Base
@@ -8,9 +9,25 @@ module OUI
     end
 
     get '/lookup' do
-      organization = OUI::MACAddress.parse(params[:mac]).organization
-      result = { mac: params[:mac], manufacturer: organization.name, chinese_name: organization.chinese_name }
+      org = OUI::MACAddress.parse(params[:mac]).organization
+
+      result = {
+        mac: params[:mac],
+        manufacturer: org.name,
+        chinese_name: org.chinese_name
+      }
+
       json result
+    end
+
+    get '/' do
+      template = File.read(File.expand_path("../../../template.html.erb", __FILE__))
+      renderer = ERB.new(template)
+
+      renderer.result
+    end
+
+    post '/feed' do
     end
   end
 end
