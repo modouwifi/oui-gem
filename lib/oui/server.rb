@@ -28,7 +28,7 @@ module OUI
     end
 
     get '/feed' do
-      "thanks"
+      erb :thanks, :locals => @params
     end
   end
 end
