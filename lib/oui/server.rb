@@ -26,7 +26,7 @@ module OUI
     end
 
     get '/feed' do
-      erb :thanks, :locals => { title: "非常感谢" }.merge(@params)
+      erb :thanks, :locals => { title: "非常感谢" }.merge(@params), :layout => :layout_plain
     end
   end
 end

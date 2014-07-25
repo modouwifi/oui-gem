@@ -1,0 +1,267 @@
+@charset "UTF-8";
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.7/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 17, ../sass/screen.scss */
+body,
+html {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans GB", "Heiti SC" , "STXihei", "华文细黑", "Microsoft YaHei", "微软雅黑","sans-serif";
+  font-size: 62.5%;
+}
+
+/* line 22, ../sass/screen.scss */
+.form-wrapper {
+  width: 320px;
+  padding: 1rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-top: 4rem;
+  position: relative;
+}
+/* line 30, ../sass/screen.scss */
+.form-wrapper p {
+  font-size: 1.5rem;
+  color: #666;
+  line-height: 2.1rem;
+}
+
+/* line 39, ../sass/screen.scss */
+input,
+.js-float-select-status {
+  display: block;
+  width: 100%;
+  border: 1px solid #eee;
+  margin: 1rem 0;
+  padding: 1rem;
+  color: #aaa;
+  font-size: 20px;
+  font-size: 2rem;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+}
+/* line 51, ../sass/screen.scss */
+input:hover,
+.js-float-select-status:hover {
+  border-color: #ccc;
+}
+
+/* line 56, ../sass/screen.scss */
+.float-lable {
+  font-size: 10px;
+  font-size: 1rem;
+  color: #aaa;
+}
+
+/* line 62, ../sass/screen.scss */
+input:focus,
+textarea:focus {
+  border: 1px solid #ccc;
+  color: #333;
+  -webkit-outline: none;
+  -moz-outline: none;
+  outline: none;
+}
+
+/* line 73, ../sass/screen.scss */
+.js-float-label-wrapper.focused label,
+.js-float-label-wrapper.focused.populated label,
+.js-float-option-wrapper.focus label,
+.js-float-option-wrapper.focus.populated label {
+  color: #1297ff;
+}
+
+/* line 77, ../sass/screen.scss */
+.js-float-label-wrapper.populated label,
+.js-float-option-wrapper.populated label {
+  color: #666;
+}
+
+/* line 84, ../sass/screen.scss */
+.js-float-label-wrapper.focused input,
+.js-float-label-wrapper.focused.populated input,
+.js-float-label-wrapper.populated input,
+.js-float-option-wrapper.populated .js-float-select-status {
+  color: #333;
+}
+
+/* line 89, ../sass/screen.scss */
+.js-float-label-wrapper.error input,
+.js-float-option-wrapper.error .js-float-select-status {
+  border-color: #fc333f;
+}
+
+/* line 93, ../sass/screen.scss */
+.js-float-label-wrapper {
+  position: relative;
+}
+
+/* line 98, ../sass/screen.scss */
+.js-float-label-wrapper label,
+.js-float-option-wrapper label {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 0.2rem, 0);
+  -moz-transform: translate3d(0, 0.2rem, 0);
+  -ms-transform: translate3d(0, 0.2rem, 0);
+  -o-transform: translate3d(0, 0.2rem, 0);
+  transform: translate3d(0, 0.2rem, 0);
+  color: #666;
+  font-weight: bold;
+}
+
+/* line 110, ../sass/screen.scss */
+.js-float-label-wrapper.focused label,
+.js-float-label-wrapper.populated label,
+.js-float-option-wrapper.focus label,
+.js-float-option-wrapper.populated label {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 120, ../sass/screen.scss */
+.js-float-label-wrapper.focused input,
+.js-float-label-wrapper.populated input,
+.js-float-label-wrapper.focused textarea,
+.js-float-label-wrapper.populated textarea,
+.js-float-option-wrapper.focus .js-float-select-status,
+.js-float-option-wrapper.populated .js-float-select-status {
+  padding-top: 2.5rem;
+}
+
+/* line 127, ../sass/screen.scss */
+.js-float-label-wrapper input,
+.js-float-label-wrapper textarea,
+.js-float-label-wrapper label,
+.js-float-option-wrapper .js-float-select-status {
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+
+/* line 132, ../sass/screen.scss */
+.js-float-option-wrapper {
+  position: relative;
+}
+/* line 134, ../sass/screen.scss */
+.js-float-option-wrapper select {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  background-color: transparent;
+  opacity: 0;
+}
+/* line 144, ../sass/screen.scss */
+.js-float-option-wrapper label {
+  font-size: 10px;
+  font-size: 1rem;
+}
+/* line 148, ../sass/screen.scss */
+.js-float-option-wrapper .js-float-select-status {
+  line-height: 2.3rem;
+}
+
+/* line 153, ../sass/screen.scss */
+#send {
+  background-color: white;
+  border-color: #1297ff;
+  color: #1297ff;
+  -webkit-transition: 0.1s ease-out;
+  -moz-transition: 0.1s ease-out;
+  -o-transition: 0.1s ease-out;
+  transition: 0.1s ease-out;
+}
+/* line 158, ../sass/screen.scss */
+#send:hover {
+  background-color: #d1ecff;
+}
+/* line 161, ../sass/screen.scss */
+#send:active {
+  background-color: #1297ff;
+  color: white;
+}
