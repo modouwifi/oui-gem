@@ -32,7 +32,7 @@ def show_report
   File.open("records.txt", "a") do |file|
     mac_addresses.each do |mac|
       org = OUI::MACAddress.parse(mac).organization
-      if org.chinese_name.nil? || org.chinese_name.length > 9
+      if org.chinese_name.nil? || org.chinese_name.length > 10
         if org.name
           p org
           file.puts org.inspect
