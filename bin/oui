@@ -25,6 +25,6 @@ def generate_yml
   end
 end
 
-mac = ARGV.first
-
-p OUI::MACAddress.parse(mac).organization
+ARGV.each do |mac|
+  puts "#{mac} => #{OUI::MACAddress.parse(mac).organization.inspect}"
+end
