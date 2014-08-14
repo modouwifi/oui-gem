@@ -25,6 +25,14 @@ def generate_yml
   end
 end
 
+if ARGV.empty?
+  puts
+  puts "usage:"
+  puts "oui MAC_ADDR_1 MAC_ADDR_2   # lookup MAC addresses"
+  puts "oui local                   # lookup vendor info of all local MAC addresses (via ifconfig)"
+  exit
+end
+
 ARGV.each do |mac|
   puts "#{mac} => #{OUI::MACAddress.parse(mac).organization.inspect}"
 end
