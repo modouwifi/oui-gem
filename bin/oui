@@ -33,6 +33,15 @@ if ARGV.empty?
   exit
 end
 
-ARGV.each do |mac|
-  puts "#{mac} => #{OUI::MACAddress.parse(mac).organization.inspect}"
+if ARGV.first == 'local'
+  `ifconfig`.each_line do |line|
+    match = /[\d|[a-f]][\d|[a-f]]:[\d|[a-f]][\d|[a-f]]:[\d|[a-f]][\d|[a-f]]:[\d|[a-f]][\d|[a-f]]:[\d|[a-f]][\d|[a-f]]:[\d|[a-f]][\d|[a-f]]/.match(line)
+    if match
+      puts "#{match[0]} => #{OUI::MACAddress.parse(match[0]).organization.inspect}"
+    end
+  end
+else
+  ARGV.each do |mac|
+    puts "#{mac} => #{OUI::MACAddress.parse(mac).organization.inspect}"
+  end
 end
