@@ -4,6 +4,8 @@ look up OUI information /w Chinese translation using MAC addresses
 
 [![Build Status](https://travis-ci.org/modouwifi/oui-gem.svg?branch=master)](https://travis-ci.org/modouwifi/oui-gem)
 
+Currently live at [http://oui.ly.md](http://oui.ly.md), try URLs like this: [http://oui.ly.md/lookup?mac=14:10:9f:ea:49:11](http://oui.ly.md/lookup?mac=14:10:9f:ea:49:11)
+
 ## Installation
 
 Add this line to your application's Gemfile:
