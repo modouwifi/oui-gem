@@ -7,3 +7,4 @@ gemspec
 gem 'newrelic_rpm'
 
 gem 'unicorn'
+gem 'thin'
