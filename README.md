@@ -4,7 +4,52 @@ look up OUI information /w Chinese translation using MAC addresses
 
 [![Build Status](https://travis-ci.org/modouwifi/oui-gem.svg?branch=master)](https://travis-ci.org/modouwifi/oui-gem)
 
-Currently live at [http://oui.ly.md](http://oui.ly.md), try URLs like this: [http://oui.ly.md/lookup?mac=14:10:9f:ea:49:11](http://oui.ly.md/lookup?mac=14:10:9f:ea:49:11)
+Currently hosted on [heroku.com](https://heroku.com), live at [http://oui.ly.md](http://oui.ly.md), try URLs like this: [http://oui.ly.md/lookup?mac=14:10:9f:ea:49:11](http://oui.ly.md/lookup?mac=14:10:9f:ea:49:11)
+
+## Service Benchmark
+
+Roughly 320 requests per second, or 20000 requests per minute.
+
+with `ab -n 20000 -c 100 http://oui.ly.md/lookup?mac=14:10:9f:ea:49:11`
+
+```
+Server Software:        thin
+Server Hostname:        oui.ly.md
+Server Port:            80
+
+Document Path:          /lookup?mac=14:10:9f:ea:49:11
+Document Length:        74 bytes
+
+Concurrency Level:      100
+Time taken for tests:   61.629 seconds
+Complete requests:      20000
+Failed requests:        0
+Write errors:           0
+Total transferred:      6160000 bytes
+HTML transferred:       1480000 bytes
+Requests per second:    324.52 [#/sec] (mean)
+Time per request:       308.143 [ms] (mean)
+Time per request:       3.081 [ms] (mean, across all concurrent requests)
+Transfer rate:          97.61 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:       72   74  24.0     73     846
+Processing:    86  233  78.3    233    2377
+Waiting:       85  231  78.0    231    2375
+Total:        161  307  80.9    306    2450
+
+Percentage of the requests served within a certain time (ms)
+  50%    306
+  66%    327
+  75%    334
+  80%    340
+  90%    355
+  95%    369
+  98%    393
+  99%    432
+ 100%   2450 (longest request)
+```
 
 ## Installation
 
