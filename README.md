@@ -2,6 +2,8 @@
 
 look up OUI information /w Chinese translation using MAC addresses
 
+OUI info from [IEEE OUI text file](https://standards.ieee.org/develop/regauth/oui/oui.txt)
+
 [![Build Status](https://travis-ci.org/modouwifi/oui-gem.svg?branch=master)](https://travis-ci.org/modouwifi/oui-gem)
 
 Currently hosted on [heroku.com](https://heroku.com), live at [http://oui.ly.md](http://oui.ly.md), try URLs like this: [http://oui.ly.md/lookup?mac=14:10:9f:ea:49:11](http://oui.ly.md/lookup?mac=14:10:9f:ea:49:11)
