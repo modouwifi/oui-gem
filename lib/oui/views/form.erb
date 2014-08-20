@@ -1,20 +1,20 @@
 <form class="form-wrapper" action="/feed" method="get">
-  <p>通过提交以下信息，您可以帮助我们把 MAC 地址与厂商的对应关系数据库做得更好</p>
+  <p>通过提交以下信息，您可以帮助我们把 MAC 地址与厂商的对应关系数据库做得更好。</p>
 
   <!-- add class "error" on wrappers to mark error input -->
   <div class="js-float-label-wrapper">
     <label for="mac">MAC 地址</label>
-    <input id="form-mac" name="mac" type="text" spellcheck="false"></input>
+    <input id="form-mac" name="mac" type="text" spellcheck="false" autocomplete="off"></input>
   </div>
 
   <div class="js-float-label-wrapper">
     <label for="vendor">厂商</label>
-    <input id="form-vendor" name="vendor" type="text" spellcheck="false"></input>
+    <input id="form-vendor" name="vendor" type="text" spellcheck="false" autocomplete="off"></input>
   </div>
 
   <div class="js-float-label-wrapper">
     <label for="product">产品</label>
-    <input id="form-product" name="product" type="text" spellcheck="false"></input>
+    <input id="form-product" name="product" type="text" spellcheck="false" autocomplete="off"></input>
   </div>
 
   <input id="send" type="submit" value="提交" />
