@@ -52,10 +52,12 @@ def show_feeds
   end
 end
 
+desc 'run report on downloaded logs'
 task :report_local do
   show_report
 end
 
+desc 'download logs and run report'
 task :report do
   download_logs
   show_report
@@ -65,6 +67,7 @@ task :feeds do
   show_feeds
 end
 
+desc 'download logs'
 task :download_logs do
   download_logs
 end
