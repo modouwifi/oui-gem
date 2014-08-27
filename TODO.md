@@ -8,3 +8,4 @@
 - utilize `.profile` and capture `SIGTERM` as described in [https://devcenter.heroku.com/articles/dynos#the-dyno-manager](https://devcenter.heroku.com/articles/dynos#the-dyno-manager)
 - handle deployment downtime gracefully
 - separate `oui.txt` lookup to a database
+add an app.json
