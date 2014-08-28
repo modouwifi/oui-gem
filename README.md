@@ -6,6 +6,7 @@ OUI info from [IEEE OUI text file](https://standards.ieee.org/develop/regauth/ou
 
 [![Build Status](https://travis-ci.org/modouwifi/oui-gem.svg?branch=master)](https://travis-ci.org/modouwifi/oui-gem)
 [![Code Climate](https://codeclimate.com/github/modouwifi/oui-gem/badges/gpa.svg)](https://codeclimate.com/github/modouwifi/oui-gem)
+[![Coverage Status](https://coveralls.io/repos/modouwifi/oui-gem/badge.png)](https://coveralls.io/r/modouwifi/oui-gem)
 
 Currently hosted on [heroku.com](https://heroku.com), live at [http://oui.ly.md](http://oui.ly.md), try URLs like this: [http://oui.ly.md/lookup?mac=14:10:9f:ea:49:11](http://oui.ly.md/lookup?mac=14:10:9f:ea:49:11)
 
